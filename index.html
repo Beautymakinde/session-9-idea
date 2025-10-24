@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam Studio - Hair Styling Appointments</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Glam Studio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Glam Studio</h1>
+            <p>Where Style Meets Excellence</p>
+            <a href="#booking" class="cta-button">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-cut"></i>
+                <h3>Haircut & Styling</h3>
+                <p>Starting from $50</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Hair Coloring</h3>
+                <p>Starting from $80</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-spa"></i>
+                <h3>Hair Treatment</h3>
+                <p>Starting from $65</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-fire"></i>
+                <h3>Hair Extension</h3>
+                <p>Starting from $150</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <h2>Book Your Appointment</h2>
+        <form id="booking-form" class="booking-form">
+            <div class="form-group">
+                <input type="text" id="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" required placeholder="Your Phone">
+            </div>
+            <div class="form-group">
+                <select id="service" required>
+                    <option value="">Select Service</option>
+                    <option value="haircut">Haircut & Styling</option>
+                    <option value="coloring">Hair Coloring</option>
+                    <option value="treatment">Hair Treatment</option>
+                    <option value="extension">Hair Extension</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+                <input type="time" id="time" required>
+            </div>
+            <button type="submit" class="submit-btn">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Our Work</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/style1.jpg" alt="Hairstyle 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/style2.jpg" alt="Hairstyle 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/style3.jpg" alt="Hairstyle 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/style4.jpg" alt="Hairstyle 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>123 Style Street, Beauty City, BC 12345</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+1 234 567 8900</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>info@glamstudio.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Glam Studio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
